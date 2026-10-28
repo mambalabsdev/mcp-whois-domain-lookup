@@ -86,7 +86,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
 | `domain-lookup`, per domain the registry answered for | $0.0025 | $0.002375 | $0.00225 | $0.002125 |
-| `apify-actor-start`, per run start | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
+| `apify-actor-start`, per run start | $0.0006 | $0.0006 | $0.0006 | $0.0006 |
 
 Rows with no dates published, error rows, input that is not a domain, and repeats of a domain in the same run are free.
 
