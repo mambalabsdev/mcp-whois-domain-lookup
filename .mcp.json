@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-whois-domain-lookup": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-whois-domain-lookup"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

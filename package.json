@@ -1,0 +1,48 @@
+{
+  "name": "@mambalabsdev/mcp-whois-domain-lookup",
+  "version": "1.0.0",
+  "description": "MCP server for WHOIS Domain Lookup. Registrar, creation and expiry dates, domain age, status, nameservers, and DNSSEC per domain from each registry's RDAP or WHOIS server. No key. Runs on Apify.",
+  "type": "module",
+  "bin": {
+    "mcp-whois-domain-lookup": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "whois",
+    "rdap",
+    "domain-age",
+    "domain-expiry",
+    "apify"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/whois-domain-lookup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-whois-domain-lookup"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-whois-domain-lookup"
+}
