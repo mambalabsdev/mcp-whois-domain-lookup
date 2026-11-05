@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-whois-domain-lookup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for WHOIS Domain Lookup. Registrar, creation and expiry dates, domain age, status, nameservers, and DNSSEC per domain from each registry's RDAP or WHOIS server. No key. Runs on Apify.",
   "author": {
     "name": "Mamba Labs"

@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-whois-domain-lookup)](https://www.npmjs.com/package/@mambalabsdev/mcp-whois-domain-lookup) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-whois-domain-lookup)](https://github.com/mambalabsdev/mcp-whois-domain-lookup/blob/main/LICENSE)
 
-An MCP server for the Mamba Labs WHOIS Domain Lookup actor on Apify. Give it domains, website URLs, or email addresses. For each domain it returns one row: whether it is registered, the registrar, the creation, update, and expiry dates, the domain age and days until expiry, the status codes, the nameservers, DNSSEC, and the registrant organization and country where the registry publishes them.
+An MCP server for the Mamba Labs [Bulk WHOIS and RDAP Domain Age Lookup](https://apify.com/mambalabs/whois-domain-lookup) actor on Apify. Give it domains, website URLs, or email addresses. For each domain it returns one row: whether it is registered, the registrar, the creation, update, and expiry dates, the domain age and days until expiry, the status codes, the nameservers, DNSSEC, and the registrant organization and country where the registry publishes them.
 
 ## What's Inside
 
